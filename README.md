@@ -21,6 +21,13 @@ Preferably Visual pinball would then also support a folder structure next to vpx
 
 This will place the `vbs` file next to the `vpx` file.
 
+## Sidecar vbs support
+
+Any `vbs` next to the `vpx` with the same file name will be picked up by VP as the table script
+"side-car" table support.
+
+see https://github.com/vpinball/vpinball/commit/132c72ad913441c5af5fd0ce667186e44cb904bb
+
 ## VPX Files
 
 VPX files are using the [Compound File Binary File Format (CFBF)](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)
@@ -40,3 +47,6 @@ c++ writing https://github.com/vpinball/vpinball/blob/c3c59e09ed56a69759280867af
 
 c# partial read code https://github.com/stojy/ClrVpin/blob/a317f3985b77f56aac7c5109f76d541c046c87fc/ClrVpin/Shared/Utils/TableUtils.cs#LL79C11-L79C11
 
+## Previous work
+
+There is this repo: https://github.com/sverrewl/vpxtable_scripts
