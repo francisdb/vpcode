@@ -30,6 +30,7 @@ You can open them in 7-zip to inspect the contents
 
 This file format can be read using .net [OpenMCDF](https://github.com/ironfede/openmcdf) (Microsoft Compound Document Format, also known as OLE structured storage)
 or c++ [POLE](https://dimin.net/software/pole/)
+or rust [ole](https://docs.rs/ole/latest/ole/)
 
 c# writing https://github.com/freezy/VisualPinball.Engine/blob/ec1e9765cd4832c134e889d6e6d03320bc404bd5/VisualPinball.Engine/VPT/Table/TableWriter.cs#L44
 
