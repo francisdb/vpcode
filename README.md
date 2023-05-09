@@ -1,6 +1,6 @@
 # vpcode
 
-Index of visual pinball table scripts
+Index of [Visual Pinball](https://github.com/vpinball/vpinball) table scripts
 
 The idea here is to extract the `vbs` files from the most popular tables and index them here so we can search through the code and compare tables / versions.
 
